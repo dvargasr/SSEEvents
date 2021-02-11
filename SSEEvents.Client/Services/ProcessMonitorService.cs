@@ -101,6 +101,7 @@ namespace SSEEvents.Client.Services
 
         public double ConvertKBToGB(UInt64 kilobytes)
         {
+            //casting dividend to double to keep precision
             return kilobytes / (double)(1024 * 1024);
         }
 
